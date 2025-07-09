@@ -1,0 +1,14 @@
+/home/david/projects/wbwarehouse/warehouse/bin/Debug/net9.0/warehouse
+/home/david/projects/wbwarehouse/warehouse/bin/Debug/net9.0/warehouse.deps.json
+/home/david/projects/wbwarehouse/warehouse/bin/Debug/net9.0/warehouse.runtimeconfig.json
+/home/david/projects/wbwarehouse/warehouse/bin/Debug/net9.0/warehouse.dll
+/home/david/projects/wbwarehouse/warehouse/bin/Debug/net9.0/warehouse.pdb
+/home/david/projects/wbwarehouse/warehouse/obj/Debug/net9.0/warehouse.GeneratedMSBuildEditorConfig.editorconfig
+/home/david/projects/wbwarehouse/warehouse/obj/Debug/net9.0/warehouse.AssemblyInfoInputs.cache
+/home/david/projects/wbwarehouse/warehouse/obj/Debug/net9.0/warehouse.AssemblyInfo.cs
+/home/david/projects/wbwarehouse/warehouse/obj/Debug/net9.0/warehouse.csproj.CoreCompileInputs.cache
+/home/david/projects/wbwarehouse/warehouse/obj/Debug/net9.0/warehouse.dll
+/home/david/projects/wbwarehouse/warehouse/obj/Debug/net9.0/refint/warehouse.dll
+/home/david/projects/wbwarehouse/warehouse/obj/Debug/net9.0/warehouse.pdb
+/home/david/projects/wbwarehouse/warehouse/obj/Debug/net9.0/warehouse.genruntimeconfig.cache
+/home/david/projects/wbwarehouse/warehouse/obj/Debug/net9.0/ref/warehouse.dll
