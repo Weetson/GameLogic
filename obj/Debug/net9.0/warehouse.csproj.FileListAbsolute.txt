@@ -12,3 +12,4 @@
 /home/david/projects/wbwarehouse/warehouse/obj/Debug/net9.0/warehouse.pdb
 /home/david/projects/wbwarehouse/warehouse/obj/Debug/net9.0/warehouse.genruntimeconfig.cache
 /home/david/projects/wbwarehouse/warehouse/obj/Debug/net9.0/ref/warehouse.dll
+/home/david/projects/wbwarehouse/warehouse/obj/Debug/net9.0/warehouse.sourcelink.json

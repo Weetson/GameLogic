@@ -2,18 +2,21 @@
 
     public static void Main()
     {
-        var cells = Enumerable.Range(1, 30).Select(id => new Cell { Id = id }).ToList();
-        var delivery = new Delivery();
-        var items = delivery.GenerateDelivery("wb_products.json", cells);
+        var deliveryGen = new Delivery();
+        var warehouse = new Warehouse();
 
-        Console.WriteLine($"Доставлено {items.Count} товаров.");
-        foreach (var cell in cells.Where(c => c.Items.Any()))
+        var items = deliveryGen.GenerateDelivery("wb_products.json", warehouse.Cells);
+        warehouse.AcceptDelivery(items);
+
+
+        // ✅ 5. Вывод результата
+        Console.WriteLine("\n📦 Итог по ячейкам:");
+        foreach (var cell in warehouse.Cells.Where(c => c.Items.Any()))
         {
-            Console.WriteLine($"Ячейка {cell.Id}: {cell.Items.Count} товаров");
+            Console.WriteLine($"Ячейка №{cell.Id}: {cell.Items.Count} товаров");
         }
 
-        // var item_one = cells[0].Items[0];
-        // Console.WriteLine(item_one.CellId);
+        Console.WriteLine("\n🏁 Работа завершена.");
     }
     
 }
