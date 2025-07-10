@@ -6,5 +6,8 @@ public class Item
     public decimal Price { get; set; }
     public int? CellId { get; set; }
     public int ClientId { get; set; }
-    public bool isAccepted { get; set; } = false;
+
+    public int BoxId { get; set; } // Связь с коробкой
+    public bool IsAccepted { get; set; } = false;
+    
 }
